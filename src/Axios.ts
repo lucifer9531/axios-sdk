@@ -184,6 +184,11 @@ export class VAxios {
     return this.request({ ...config, method: 'DELETE' }, options);
   }
 
+  /**
+   * Request encapsulation
+   * @param config
+   * @param options
+   */
   request<T = any>(config: AxiosRequestConfig, options?: RequestOptions): Promise<T> {
     let conf: CreateAxiosOptions = cloneDeep(config);
     const transform = this.getTransform();
