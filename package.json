@@ -1,11 +1,11 @@
 {
   "name": "axios-sdk",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "基于axios的二次封装",
   "license": "MIT",
   "author": {
     "name": "IRIS",
-    "email": "kingiris@gmail.com"
+    "email": "1819109014@qq.com"
   },
   "main": "dist/index.js",
   "module": "dist/axiossdk.esm.js",
@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "tsdx watch",
     "serve": "npm run dev ENV=dev",
-    "build": "tsdx build --format cjs,esm,umd --name demosdk NODE_ENV=production",
+    "build": "tsdx build --format cjs,esm,umd --name axiossdk NODE_ENV=production",
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "lint:lint-staged": "lint-staged -c ./lintstagedrc.js",
     "lint:pretty": "pretty-quick --staged",
@@ -48,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruixijiejie/typescript-sdk-template"
+    "url": "git+https://github.com/ruixijiejie/axios-sdk"
   },
   "bugs": {
-    "url": "https://github.com/ruixijiejie/typescript-sdk-template/issues"
+    "url": "https://github.com/ruixijiejie/axios-sdk/issues"
   },
   "husky": {
     "hooks": {
@@ -60,7 +60,7 @@
     }
   },
   "publishConfig": {
-    "registry": "https://www.npmjs.com/"
+    "registry": "http://60.205.181.203:4873/"
   },
   "engines": {
     "node": "^12 || >=14"

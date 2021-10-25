@@ -189,7 +189,7 @@ export class VAxios {
    * @param config
    * @param options
    */
-  request<T = any>(config: AxiosRequestConfig, options?: RequestOptions): Promise<T> {
+  public request<T = any>(config: AxiosRequestConfig, options?: RequestOptions): Promise<T> {
     let conf: CreateAxiosOptions = cloneDeep(config);
     const transform = this.getTransform();
 

@@ -1,10 +1,10 @@
 import type { AxiosTransform, CreateAxiosOptions } from './axiosTransform';
 import type { AxiosRequestConfig, AxiosResponse } from 'axios';
-import type { RequestOptions, Result} from "/#/axios";
-import {ContentTypeEnum, RequestEnum, ResultEnum} from "@/enums/httpEnum";
-import { isString } from "@/utils/is";
+import type { RequestOptions, Result } from "/#/axios";
+import { ContentTypeEnum, RequestEnum, ResultEnum } from "./enums/httpEnum";
+import { isString } from "./utils/is";
 import { formatRequestDate, joinTimestamp } from "./helper";
-import {deepMerge, setObjToUrlParams} from "./utils";
+import { deepMerge, setObjToUrlParams } from "./utils";
 import { VAxios } from "./Axios";
 
 const transform: AxiosTransform = {
