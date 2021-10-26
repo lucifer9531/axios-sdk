@@ -1,12 +1,9 @@
 {
   "name": "axios-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于axios的二次封装",
   "license": "MIT",
-  "author": {
-    "name": "IRIS",
-    "email": "1819109014@qq.com"
-  },
+  "author": "IRIS",
   "main": "dist/index.js",
   "module": "dist/axiossdk.esm.js",
   "types": "dist/index.d.ts",
